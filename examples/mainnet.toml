@@ -1,0 +1,8 @@
+data_dir = "../data"
+rpc_listen = "127.0.0.1:18237"
+# Supply a native Zakura/ztreamer peer: "<64-hex-node-id>@<host>:<port>".
+peers = []
+sync_interval_seconds = 10
+
+[network]
+kind = "mainnet"

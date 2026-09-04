@@ -1,0 +1,7 @@
+data_dir = "../data/regtest"
+rpc_listen = "127.0.0.1:18237"
+peers = []
+
+[network]
+kind = "regtest"
+ironwood_activation = 2
