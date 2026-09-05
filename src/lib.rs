@@ -6,3 +6,6 @@ pub mod wallet;
 
 #[cfg(feature = "node")]
 pub mod network;
+
+#[cfg(feature = "node")]
+pub mod sync;
