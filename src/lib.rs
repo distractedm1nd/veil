@@ -11,3 +11,6 @@ pub mod send;
 
 #[cfg(feature = "node")]
 pub mod sync;
+
+#[cfg(feature = "node")]
+pub mod daemon;
