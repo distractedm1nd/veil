@@ -1,0 +1,1568 @@
+diff --git a/Cargo.lock b/Cargo.lock
+index ad7a3b783..b8825071d 100644
+--- a/Cargo.lock
++++ b/Cargo.lock
+@@ -7696,9 +7696,9 @@ checksum = "cdad84f915d23f50eeb7389fd1ffc2385b35c57c68ceb2df20c73b7724621a30"
+ 
+ [[package]]
+ name = "zakura-bellman"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "82c72c84165959b2578cbf8800ff491e74d819397b53658bbf1b2b170b3ee9fc"
++checksum = "e57a0ef43d09d41602ee6f313f371b7a4b779eae067aa6d2fcb9218be2eede37"
+ dependencies = [
+  "bitvec",
+  "blake2s_simd",
+@@ -7713,9 +7713,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-bls12-381"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "2d9c833a85b5ba3303a5f14ed760d613bee8a9769923da5a1e7f51851849e7f5"
++checksum = "2f70821a2d2c88a38585d239651d620e78092e404cdfcc9c75a13118239481da"
+ dependencies = [
+  "ff",
+  "group",
+@@ -7844,9 +7844,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-halo2-gadgets"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "c601160505e513507664516f16a38b8e875a31b48155a93964b6e97c1e07d315"
++checksum = "c2743e20797b1d79d353371cebc78a06573186af0f0eb17c20211fa3e97c122d"
+ dependencies = [
+  "arrayvec",
+  "ff",
+@@ -7878,9 +7878,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-halo2-proofs"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "2c39132f1dae675ef4105321da11dee1d70c2b07bbc7d78a31c4044ed381fd74"
++checksum = "7c1386cce49a4d9e4a1b1e32fbbb3ba34d23e53dcefd700ee976d736d72f302a"
+ dependencies = [
+  "blake2b_simd",
+  "ff",
+@@ -7922,9 +7922,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-jubjub"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "4b10077e35b311a780366567771c4730245a4df7bd23b1f3414444b0e5c3a9cd"
++checksum = "494ad340524224ea1e4b8e9f242825cf2a4e1e4421e6ef39af65a562347c2e15"
+ dependencies = [
+  "bitvec",
+  "ff",
+@@ -7936,9 +7936,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-keys"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "ac02340ce2b8eecc13047a936efe6545cc6de3761e2eda11eb5ab30cde8a6bed"
++checksum = "9821f05289f696c0a6ae8586facd324da5b0297ff6705a16d6f50ddcfd8de73f"
+ dependencies = [
+  "bech32",
+  "blake2b_simd",
+@@ -8021,9 +8021,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-orchard"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "79f40234883ea702da695f1cbf470a0ba3b9fe0ac51d24af588a058afc383d68"
++checksum = "de5ef84c9e8dfa576e80f7be5aff3449741b57900d78fcbf4f536b42ce909fd6"
+ dependencies = [
+  "aes",
+  "bitvec",
+@@ -8083,9 +8083,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-primitives"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "268f6d451f4870f763b5ba51e5f84fd2843d86b103cc01b8fbf9cae84115c36c"
++checksum = "5a5c71f57ec127e0429928795354ec3971fc58151603657a4a6f1ffd9f4e0d67"
+ dependencies = [
+  "blake2b_simd",
+  "block-buffer 0.11.0-rc.3",
+@@ -8114,9 +8114,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-proofs"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "fce73755c38fa3d0de97d420d547855b0111083b0f1270ab7d4e53896cb16a7c"
++checksum = "83174f4acaf7e5eebd3438628a92f0c59e24f856de37ea4a18b2cfbb3ac5c9fb"
+ dependencies = [
+  "blake2b_simd",
+  "document-features",
+@@ -8134,9 +8134,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-reddsa"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "8ecd8e46ef79bd3675733cee6741c432ccd259b9e060e4838d2cc311a654744f"
++checksum = "a6341ee8bb195dbfb00be64d2e8121d7cc8e7ae14878b4b6724c674b3abb95d7"
+ dependencies = [
+  "blake2b_simd",
+  "frost-rerandomized",
+@@ -8152,9 +8152,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-redjubjub"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "37aa0ca5f5747caad4527ee92ad538271e7124949bc799cdc30b09c631b447fe"
++checksum = "6de3e8fc50ba4a6e608c71ae636a120b9e6427e3151252ab855e526040146893"
+ dependencies = [
+  "rand_core 0.10.1",
+  "serde",
+@@ -8234,9 +8234,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-sapling-crypto"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "6fcd5a8073598e33ffaa2694ca59d7c522a60dd349a3d74d239e6eb929733107"
++checksum = "64a0158acd9219ba07630d53cf2463b73d222f55a270fadc5b3ccf2ec2a1b277"
+ dependencies = [
+  "aes",
+  "bitvec",
+@@ -8286,9 +8286,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "zakura-sinsemilla"
+-version = "1.0.1"
++version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "043da1b236d2b976b2046112811dc1be3f734c566a6edb1a0a52b5379231e212"
++checksum = "9ef987ae2e927d3e53711e93b44c3030df0f430ff44865a06195573eaca5d10a"
+ dependencies = [
+  "group",
+  "once_cell",
+diff --git a/Cargo.toml b/Cargo.toml
+index 33bec059c..4cb1b5446 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -49,26 +49,26 @@ edition = "2021"
+ # gate refers to `zakura-assets` and nothing else.
+ zakura-assets = { version = "=0.3466571.0" }
+ incrementalmerkletree = { version = "0.8.2", features = ["legacy-api"] }
+-orchard = { version = "1.0.1", package = "zakura-orchard" }
+-sapling-crypto = { version = "1.0.1", package = "zakura-sapling-crypto" }
++orchard = { version = "=1.0.0", package = "zakura-orchard" }
++sapling-crypto = { version = "=1.0.0", package = "zakura-sapling-crypto" }
+ zcash_address = "0.13.0"
+ zcash_history = "0.5.0"
+-zcash_keys = { version = "1.0.1", package = "zakura-keys" }
+-zcash_primitives = { version = "1.0.1", package = "zakura-primitives" }
+-zcash_proofs = { version = "1.0.1", package = "zakura-proofs" }
++zcash_keys = { version = "=1.0.0", package = "zakura-keys" }
++zcash_primitives = { version = "=1.0.0", package = "zakura-primitives" }
++zcash_proofs = { version = "=1.0.0", package = "zakura-proofs" }
+ zcash_transparent = "0.10.0"
+ zcash_protocol = "0.10.1"
+ abscissa_core = { version = "0.7", default-features = false }
+ base64 = "0.22.1"
+ bech32 = "0.11.0"
+-bellman = { version = "1.0.1", package = "zakura-bellman" }
++bellman = { version = "=1.0.0", package = "zakura-bellman" }
+ bincode = "1.3"
+ bitflags = "2.9"
+ bitflags-serde-legacy = "0.1.1"
+ bitvec = "1.0"
+ blake2b_simd = "1.0"
+ blake2s_simd = "1.0"
+-bls12_381 = { version = "1.0.1", package = "zakura-bls12-381" }
++bls12_381 = { version = "=1.0.0", package = "zakura-bls12-381" }
+ bs58 = "0.5"
+ byteorder = "1.5"
+ bytes = "1.10"
+@@ -87,7 +87,7 @@ futures = "0.3.31"
+ futures-core = "0.3.31"
+ futures-util = "0.3.31"
+ group = "0.14"
+-halo2 = { version = "1.0.1", package = "zakura-halo2-proofs" }
++halo2 = { version = "=1.0.0", package = "zakura-halo2-proofs" }
+ hex = "0.4.3"
+ hex-literal = "0.4"
+ howudoin = "0.1"
+@@ -106,7 +106,7 @@ itertools = "0.14"
+ jsonrpsee = "0.24.8"
+ jsonrpsee-proc-macros = "0.24.9"
+ jsonrpsee-types = "0.24.9"
+-jubjub = { version = "1.0.1", package = "zakura-jubjub" }
++jubjub = { version = "=1.0.0", package = "zakura-jubjub" }
+ lazy_static = "1.4"
+ libzcash_script = "0.1"
+ log = "0.4.27"
+@@ -129,8 +129,8 @@ rand_10 = { package = "rand", version = "0.10" }
+ rand_chacha_10 = { package = "rand_chacha", version = "0.10" }
+ rand_core_10 = { package = "rand_core", version = "0.10" }
+ rayon = "1.10"
+-reddsa = { version = "1.0.1", package = "zakura-reddsa" }
+-redjubjub = { version = "1.0.1", package = "zakura-redjubjub" }
++reddsa = { version = "=1.0.0", package = "zakura-reddsa" }
++redjubjub = { version = "=1.0.0", package = "zakura-redjubjub" }
+ regex = "1.11"
+ reqwest = { version = "0.12", default-features = false }
+ ripemd = "0.1"
+@@ -145,7 +145,7 @@ serde_json = "1.0.140"
+ serde_with = "3.12"
+ sha2 = "0.10"
+ schemars = "1"
+-sinsemilla = { version = "1.0.1", package = "zakura-sinsemilla" }
++sinsemilla = { version = "=1.0.0", package = "zakura-sinsemilla" }
+ spandoc = "0.2"
+ anyhow = "1.0"
+ strum = "0.27"
+diff --git a/crates/zakura-chain/src/block/genesis.rs b/crates/zakura-chain/src/block/genesis.rs
+index 271d79142..94942a25c 100644
+--- a/crates/zakura-chain/src/block/genesis.rs
++++ b/crates/zakura-chain/src/block/genesis.rs
+@@ -17,3 +17,20 @@ pub fn regtest_genesis_block() -> Arc<Block> {
+         .map(Arc::new)
+         .expect("hard-coded Regtest genesis block data must deserialize successfully")
+ }
++
++/// The fixed network genesis block, for bootstrapping an embedded headers-only node.
++/// The returned block is still checked against the configured genesis hash by consensus.
++pub fn network_genesis_block(network: &crate::parameters::Network) -> Arc<Block> {
++    if network.is_regtest() {
++        return regtest_genesis_block();
++    }
++    let hex = match network.kind() {
++        crate::parameters::NetworkKind::Mainnet => include_str!("genesis/block-main-0-000-000.txt"),
++        _ => include_str!("genesis/block-test-0-000-000.txt"),
++    };
++    Vec::from_hex(hex.trim())
++        .expect("embedded genesis hex is valid")
++        .zcash_deserialize_into()
++        .map(Arc::new)
++        .expect("embedded genesis is a serialized block")
++}
+diff --git a/crates/zakura-consensus/src/block/check.rs b/crates/zakura-consensus/src/block/check.rs
+index 8b8cd3262..fa93d7a67 100644
+--- a/crates/zakura-consensus/src/block/check.rs
++++ b/crates/zakura-consensus/src/block/check.rs
+@@ -276,7 +276,8 @@ pub fn subsidy_is_valid(
+         if Some(height) == NetworkUpgrade::Nu6_1.activation_height(net) {
+             let lockbox_disbursements = net.lockbox_disbursements(height);
+ 
+-            if lockbox_disbursements.is_empty() {
++            // Regtest has no public-network lockbox allocation by default.
++            if lockbox_disbursements.is_empty() && !net.is_regtest() {
+                 Err(BlockError::Other(
+                     "missing lockbox disbursements for NU6.1 activation block".to_string(),
+                 ))?;
+diff --git a/crates/zakura-consensus/src/block/tests.rs b/crates/zakura-consensus/src/block/tests.rs
+index e5c6737d5..c124907c1 100644
+--- a/crates/zakura-consensus/src/block/tests.rs
++++ b/crates/zakura-consensus/src/block/tests.rs
+@@ -1233,3 +1233,33 @@ fn state_commit_context_errors_keep_misbehavior_scores() {
+     let router_error = crate::router::RouterError::from(err);
+     assert_eq!(router_error.misbehavior_score(), 100);
+ }
++
++#[test]
++fn regtest_activation_allows_an_empty_lockbox_allocation() {
++    let network = Network::new_regtest(
++        zakura_chain::parameters::testnet::ConfiguredActivationHeights {
++            nu6_2: Some(1),
++            nu6_3: Some(2),
++            ..Default::default()
++        }
++        .into(),
++    );
++    let height = Height(1);
++    assert!(network.lockbox_disbursements(height).is_empty());
++    let block = Block {
++        header: zakura_chain::block::genesis::regtest_genesis_block()
++            .header
++            .clone(),
++        transactions: vec![Arc::new(v5_coinbase_transaction(
++            NetworkUpgrade::Nu6_2,
++            height,
++            &network,
++        ))],
++    };
++    check::subsidy_is_valid(
++        &block,
++        &network,
++        block_subsidy(height, &network).expect("regtest subsidy is defined"),
++    )
++    .expect("a private chain has no public-network lockbox allocation");
++}
+diff --git a/crates/zakura-network/src/zakura/handler.rs b/crates/zakura-network/src/zakura/handler.rs
+index 98f9d7b71..5d63cc3aa 100644
+--- a/crates/zakura-network/src/zakura/handler.rs
++++ b/crates/zakura-network/src/zakura/handler.rs
+@@ -48,6 +48,10 @@ use super::trace::{reject_reason_label, ZakuraTrace};
+ use crate::zakura::drive_header_sync_actions;
+ #[cfg(any(test, feature = "zakura-testkit"))]
+ use crate::zakura::HeaderSyncAction;
++use crate::zakura::{
++    SERVICE_ID_BLOCK_SYNC, SERVICE_ID_DISCOVERY, SERVICE_ID_HEADER_SYNC, SERVICE_ID_LEGACY_GOSSIP,
++    SERVICE_ID_LEGACY_REQUESTS, SERVICE_ID_SERVICE_DISCOVERY,
++};
+ use crate::{peer_registry::PeerRegistry, BoxError, Config, MAX_TX_INV_IN_SENT_MESSAGE};
+ use crate::{
+     protocol::external::InventoryHash,
+@@ -301,6 +305,10 @@ pub struct ZakuraConfig {
+     pub trace_dir: Option<PathBuf>,
+     /// Native header-sync wire settings.
+     pub header_sync: ZakuraHeaderSyncConfig,
++    /// Native services to run; None preserves the full-node service set.
++    pub provide_services: Option<Vec<String>>,
++    /// Explicit remote services to prefer during discovery.
++    pub seek_services: Vec<String>,
+     /// Native stream-6 block-sync wire, scheduling, serving, and rollout settings.
+     pub block_sync: ZakuraBlockSyncConfig,
+     /// Optional private dev-network cohort tag.
+@@ -333,6 +341,8 @@ impl Default for ZakuraConfig {
+             message_rate_per_second: DEFAULT_ZAKURA_MESSAGE_RATE_PER_SECOND,
+             trace_dir: None,
+             header_sync: ZakuraHeaderSyncConfig::default(),
++            provide_services: None,
++            seek_services: Vec::new(),
+             block_sync: ZakuraBlockSyncConfig::default(),
+             dev_network: None,
+         }
+@@ -553,6 +563,8 @@ pub struct ZakuraEndpoint {
+     /// keyed by the advertised peer id. See [`Self::start_upgrade_native_dial`]
+     /// and [`Self::cancel_upgrade_native_dial`].
+     upgrade_dials: Arc<StdMutex<HashMap<ZakuraPeerId, UpgradeDialOwnership>>>,
++    // Retain unregistered services: dropping their inbound channels can abort startup.
++    _retained_services: Arc<Vec<Arc<dyn Service>>>,
+ }
+ 
+ #[derive(Debug)]
+@@ -875,6 +887,7 @@ impl ZakuraEndpoint {
+             header_sync_actions: None,
+             block_sync_actions: None,
+             upgrade_dials: Arc::new(StdMutex::new(HashMap::new())),
++            _retained_services: Arc::new(Vec::new()),
+         }
+     }
+ 
+@@ -903,6 +916,7 @@ impl ZakuraEndpoint {
+             header_sync_actions: actions.map(|actions| Arc::new(Mutex::new(Some(actions)))),
+             block_sync_actions: None,
+             upgrade_dials: Arc::new(StdMutex::new(HashMap::new())),
++            _retained_services: Arc::new(Vec::new()),
+         }
+     }
+ 
+@@ -935,6 +949,7 @@ impl ZakuraEndpoint {
+             block_sync_actions: block_sync_actions
+                 .map(|actions| Arc::new(Mutex::new(Some(actions)))),
+             upgrade_dials: Arc::new(StdMutex::new(HashMap::new())),
++            _retained_services: Arc::new(Vec::new()),
+         }
+     }
+ }
+@@ -1891,8 +1906,16 @@ pub(crate) fn service_registry(
+         watch::Receiver<zakura_node_services::sync_lifecycle::SyncServiceDemand>,
+     >,
+     custom_services: Vec<CustomService>,
+-) -> Result<Arc<ServiceRegistry>, BoxError> {
+-    let mut services = vec![legacy_service.clone()];
++    native_config: &ZakuraConfig,
++) -> Result<(Arc<ServiceRegistry>, Vec<Arc<dyn Service>>), BoxError> {
++    let gate = NativeServiceGate::from_config(native_config)?;
++    let mut retained_services: Vec<Arc<dyn Service>> = Vec::new();
++    let mut services = Vec::new();
++    if gate.legacy {
++        services.push(legacy_service.clone());
++    } else {
++        retained_services.push(legacy_service.clone());
++    }
+     let header_sync_service = if let Some(header_sync) = &header_sync {
+         Arc::new(
+             HeaderSyncService::new(header_sync.clone()).with_service_demand(service_demand.clone()),
+@@ -1900,31 +1923,51 @@ pub(crate) fn service_registry(
+     } else {
+         Arc::new(HeaderSyncPassthroughService::new(legacy_service.clone())) as Arc<dyn Service>
+     };
+-    services.push(header_sync_service.clone());
+-    let block_sync = match block_sync {
+-        Some(block_sync) => BlockSyncService::new_with_handle(block_sync_config, block_sync),
+-        None => match header_sync.as_ref() {
+-            Some(header_sync) => BlockSyncService::new_with_header_tip(
+-                block_sync_config,
+-                header_sync.subscribe_tip(),
+-            ),
+-            None => BlockSyncService::new(block_sync_config),
+-        },
++    if gate.header_sync {
++        services.push(header_sync_service.clone());
++    } else {
++        retained_services.push(header_sync_service.clone());
++    }
++    let block_sync = if gate.block_sync {
++        let service = match block_sync {
++            Some(handle) => BlockSyncService::new_with_handle(block_sync_config, handle),
++            None => match header_sync.as_ref() {
++                Some(header_sync) => BlockSyncService::new_with_header_tip(
++                    block_sync_config,
++                    header_sync.subscribe_tip(),
++                ),
++                None => BlockSyncService::new(block_sync_config),
++            },
++        };
++        Some(Arc::new(service.with_service_demand(service_demand)) as Arc<dyn Service>)
++    } else {
++        None
+     };
+-    let block_sync = Arc::new(block_sync.with_service_demand(service_demand)) as Arc<dyn Service>;
+     let custom_services = custom_services
+         .into_iter()
+         .map(Into::into)
+         .collect::<Vec<_>>();
+-    let mut connection_owners = vec![legacy_service, header_sync_service, block_sync.clone()];
++    let mut connection_owners = Vec::new();
++    if gate.legacy {
++        connection_owners.push(legacy_service);
++    }
++    if gate.header_sync {
++        connection_owners.push(header_sync_service);
++    }
++    if let Some(block_sync) = &block_sync {
++        connection_owners.push(block_sync.clone());
++    }
+     connection_owners.extend(custom_services.iter().cloned());
+     discovery_service.set_connection_owners(connection_owners);
+     services.push(discovery_service as Arc<dyn Service>);
+-    services.push(block_sync);
++    if let Some(block_sync) = block_sync {
++        services.push(block_sync);
++    }
+     services.extend(custom_services);
+ 
+-    Ok(Arc::new(
+-        ServiceRegistry::new(services).map_err(|error| -> BoxError { Box::new(error) })?,
++    Ok((
++        Arc::new(ServiceRegistry::new(services).map_err(|error| -> BoxError { Box::new(error) })?),
++        retained_services,
+     ))
+ }
+ 
+@@ -3455,24 +3498,118 @@ async fn enable_header_sync_and_renegotiate(
+     disconnected
+ }
+ 
+-fn provided_services_with_custom(custom_services: &[CustomService]) -> Vec<ZakuraServiceId> {
+-    let mut provided_services = discovery::default_advertised_services();
++/// The native services a node runs, resolved from
++/// [`ZakuraConfig::provide_services`].
++///
++/// Discovery is not represented: it is always registered, because it is the
++/// substrate every other service is found through.
++#[derive(Clone, Copy, Debug, Eq, PartialEq)]
++pub(crate) struct NativeServiceGate {
++    legacy: bool,
++    header_sync: bool,
++    block_sync: bool,
++}
++
++impl NativeServiceGate {
++    /// Every native service, the production default.
++    pub(crate) fn all() -> Self {
++        Self {
++            legacy: true,
++            header_sync: true,
++            block_sync: true,
++        }
++    }
++
++    /// Resolve the gate from config, rejecting ids that are not native services.
++    ///
++    /// An unknown id is an operator typo that would otherwise silently disable a
++    /// service, so it fails startup instead.
++    pub(crate) fn from_config(config: &ZakuraConfig) -> Result<Self, BoxError> {
++        let Some(provided) = config.provide_services.as_ref() else {
++            return Ok(Self::all());
++        };
++        let native = [
++            SERVICE_ID_DISCOVERY,
++            SERVICE_ID_SERVICE_DISCOVERY,
++            SERVICE_ID_HEADER_SYNC,
++            SERVICE_ID_BLOCK_SYNC,
++            SERVICE_ID_LEGACY_GOSSIP,
++            SERVICE_ID_LEGACY_REQUESTS,
++        ];
++        for id in provided {
++            if !native.contains(&id.as_str()) {
++                return Err(std::io::Error::other(format!(
++                    "network.zakura.provide_services lists unknown native service {id:?};                      expected any of {native:?}"
++                ))
++                .into());
++            }
++        }
++        let provides = |id: &str| provided.iter().any(|entry| entry == id);
++        Ok(Self {
++            legacy: provides(SERVICE_ID_LEGACY_GOSSIP) || provides(SERVICE_ID_LEGACY_REQUESTS),
++            header_sync: provides(SERVICE_ID_HEADER_SYNC),
++            block_sync: provides(SERVICE_ID_BLOCK_SYNC),
++        })
++    }
++
++    /// The native service ids this node advertises in its discovery record.
++    fn advertised_service_ids(&self) -> Vec<ZakuraServiceId> {
++        if *self == Self::all() {
++            return discovery::default_advertised_services();
++        }
++        let mut ids = vec![
++            ZakuraServiceId::discovery(),
++            ZakuraServiceId::service_discovery(),
++        ];
++        if self.header_sync {
++            ids.push(ZakuraServiceId::header_sync());
++        }
++        if self.block_sync {
++            ids.push(ZakuraServiceId::block_sync());
++        }
++        if self.legacy {
++            ids.push(ZakuraServiceId::legacy_gossip());
++            ids.push(ZakuraServiceId::legacy_requests());
++        }
++        ids
++    }
++}
++
++fn provided_services_with_custom(
++    custom_services: &[CustomService],
++    gate: NativeServiceGate,
++) -> Vec<ZakuraServiceId> {
++    let mut provided_services = gate.advertised_service_ids();
+     provided_services.extend(
+         custom_services
+             .iter()
+             .flat_map(|custom| custom.provides.iter().cloned()),
+     );
++    provided_services.sort_unstable();
++    provided_services.dedup();
+     provided_services
+ }
+ 
+-fn sought_services_with_custom(custom_services: &[CustomService]) -> Vec<ZakuraServiceId> {
++fn sought_services_with_custom(
++    custom_services: &[CustomService],
++    configured_seeks: &[String],
++) -> Result<Vec<ZakuraServiceId>, BoxError> {
+     let mut sought_services: Vec<_> = custom_services
+         .iter()
+         .flat_map(|custom| custom.seeks.iter().cloned())
+         .collect();
++    for id in configured_seeks {
++        sought_services.push(
++            ZakuraServiceId::new(id.clone()).map_err(|error| -> BoxError {
++                Box::new(std::io::Error::other(format!(
++                    "network.zakura.seek_services entry {id:?} is not a valid service id: {error}"
++                )))
++            })?,
++        );
++    }
+     sought_services.sort_unstable();
+     sought_services.dedup();
+-    sought_services
++    Ok(sought_services)
+ }
+ 
+ /// Start a Zakura endpoint and router when P2P v2 is enabled.
+@@ -3572,11 +3709,13 @@ async fn spawn_zakura_endpoint_inner(
+         &config.network,
+         config.zakura.dev_network.as_deref(),
+     );
+-    let sought_services = sought_services_with_custom(&custom_services);
++    let gate = NativeServiceGate::from_config(&config.zakura)?;
++    let sought_services =
++        sought_services_with_custom(&custom_services, &config.zakura.seek_services)?;
+     let discovery = discovery::build_discovery_handle(
+         discovery_secret_key,
+         discovery_direct_addrs(config, local_node_id),
+-        provided_services_with_custom(&custom_services),
++        provided_services_with_custom(&custom_services, gate),
+         &handshake_config,
+         config.zakura.max_connections,
+         remote_bootstrap_peer_count(&config.zakura.bootstrap_peers, local_node_id),
+@@ -3619,26 +3758,29 @@ async fn spawn_zakura_endpoint_inner(
+     startup.shutdown = header_sync_shutdown.clone();
+     let (header_sync, header_sync_actions, header_sync_task) = spawn_header_sync_reactor(startup)?;
+     let block_sync_driver_enabled = header_sync_driver_startup.is_some();
+-    let (block_sync, block_sync_actions, block_sync_task) =
+-        if let Some(driver_startup) = header_sync_driver_startup.as_ref() {
+-            let best_header_tip = driver_startup.best_header_tip.unwrap_or(anchor);
+-            let mut startup = BlockSyncStartup::new_with_committed_views(
+-                BlockSyncFrontiers {
+-                    finalized_height: driver_startup.frontiers.finalized_height,
+-                    verified_block_tip: driver_startup.frontiers.verified_block_tip,
+-                    verified_block_hash: driver_startup.verified_block_tip_hash,
+-                },
+-                best_header_tip,
+-                driver_startup.committed_views.clone(),
+-                config.zakura.block_sync.clone(),
+-            );
+-            startup.shutdown = header_sync_shutdown.clone();
+-            startup.trace = trace.clone();
+-            let (handle, actions, task) = spawn_block_sync_reactor(startup);
+-            (Some(handle), Some(actions), Some(task))
+-        } else {
+-            (None, None, None)
+-        };
++    let (block_sync, block_sync_actions, block_sync_task) = if let Some(driver_startup) =
++        header_sync_driver_startup
++            .as_ref()
++            .filter(|_| gate.block_sync)
++    {
++        let best_header_tip = driver_startup.best_header_tip.unwrap_or(anchor);
++        let mut startup = BlockSyncStartup::new_with_committed_views(
++            BlockSyncFrontiers {
++                finalized_height: driver_startup.frontiers.finalized_height,
++                verified_block_tip: driver_startup.frontiers.verified_block_tip,
++                verified_block_hash: driver_startup.verified_block_tip_hash,
++            },
++            best_header_tip,
++            driver_startup.committed_views.clone(),
++            config.zakura.block_sync.clone(),
++        );
++        startup.shutdown = header_sync_shutdown.clone();
++        startup.trace = trace.clone();
++        let (handle, actions, task) = spawn_block_sync_reactor(startup);
++        (Some(handle), Some(actions), Some(task))
++    } else {
++        (None, None, None)
++    };
+     let discovery_service = Arc::new(super::DiscoveryService::with_sync_services(
+         discovery.clone(),
+         header_sync.clone(),
+@@ -3657,8 +3799,9 @@ async fn spawn_zakura_endpoint_inner(
+         discovery_service,
+         service_demand.clone(),
+         custom_services,
++        &config.zakura,
+     );
+-    let registry = match registry {
++    let (registry, retained_services) = match registry {
+         Ok(registry) => registry,
+         Err(error) => {
+             header_sync_shutdown.cancel();
+@@ -3721,6 +3864,7 @@ async fn spawn_zakura_endpoint_inner(
+         header_sync_actions,
+         block_sync_actions,
+         upgrade_dials: Arc::new(StdMutex::new(HashMap::new())),
++        _retained_services: Arc::new(retained_services),
+     };
+     let startup_shutdown = endpoint.background_shutdown_token().drop_guard();
+ 
+diff --git a/crates/zakura-network/src/zakura/testkit/node.rs b/crates/zakura-network/src/zakura/testkit/node.rs
+index 747e0d853..7fc7ae890 100644
+--- a/crates/zakura-network/src/zakura/testkit/node.rs
++++ b/crates/zakura-network/src/zakura/testkit/node.rs
+@@ -556,7 +556,7 @@ impl ZakuraTestNodeBuilder {
+         } else {
+             Arc::new(DiscoveryService::new(discovery.clone()))
+         };
+-        let registry = service_registry(
++        let (registry, retained_services) = service_registry(
+             &supervisor,
+             header_sync,
+             block_sync_handle.clone(),
+@@ -565,7 +565,12 @@ impl ZakuraTestNodeBuilder {
+             discovery_service,
+             None,
+             Vec::new(),
++            &crate::zakura::ZakuraConfig::default(),
+         )?;
++        assert!(
++            retained_services.is_empty(),
++            "default test nodes provide every native service"
++        );
+         let mut handler = ZakuraProtocolHandler::new_with_registry_and_trace(
+             supervisor.clone(),
+             network.clone(),
+diff --git a/crates/zakura-state/Cargo.toml b/crates/zakura-state/Cargo.toml
+index af6bd31b2..96d79d283 100644
+--- a/crates/zakura-state/Cargo.toml
++++ b/crates/zakura-state/Cargo.toml
+@@ -57,7 +57,7 @@ lazy_static = { workspace = true }
+ metrics = { workspace = true }
+ regex = { workspace = true }
+ rlimit = { workspace = true }
+-rocksdb = { workspace = true, features = ["lz4"] }
++rocksdb = { workspace = true, features = ["lz4", "bindgen-runtime"] }
+ semver = { workspace = true }
+ crossbeam-channel = { workspace = true }
+ serde = { workspace = true, features = ["serde_derive"] }
+diff --git a/crates/zakura-state/src/config.rs b/crates/zakura-state/src/config.rs
+index 490db29db..4ceb8ac8d 100644
+--- a/crates/zakura-state/src/config.rs
++++ b/crates/zakura-state/src/config.rs
+@@ -31,6 +31,9 @@ use crate::{
+ #[derive(Clone, Debug, Eq, PartialEq, Deserialize, Serialize)]
+ #[serde(deny_unknown_fields, default)]
+ pub struct Config {
++    /// Run the durable header engine without full-block synchronization.
++    /// This mode has independent, irreversible header-depth finality.
++    pub headers_only: bool,
+     /// The root directory for storing cached block data.
+     ///
+     /// If you change this directory, you might also want to change `network.cache_dir`.
+@@ -457,6 +460,7 @@ impl Default for PruningConfig {
+ impl Default for Config {
+     fn default() -> Self {
+         Self {
++            headers_only: false,
+             cache_dir: default_cache_dir(),
+             ephemeral: false,
+             should_backup_non_finalized_state: true,
+diff --git a/crates/zakura-state/src/request.rs b/crates/zakura-state/src/request.rs
+index 9f699e4a6..06a2e00dd 100644
+--- a/crates/zakura-state/src/request.rs
++++ b/crates/zakura-state/src/request.rs
+@@ -1708,6 +1708,13 @@ pub enum ReadRequest {
+         count: u32,
+     },
+ 
++    /// Returns body-derived roots only where the current body chain matches the requested hashes.
++    /// This binds live-tip auxiliary replies to an immutable served header path.
++    BlockRootsForHashes {
++        /// Contiguous height/hash pairs, bounded by the header-sync page limit.
++        blocks: Vec<(block::Height, block::Hash)>,
++    },
++
+     /// Returns the highest header held on disk.
+     BestHeaderTip,
+ 
+@@ -1962,6 +1969,7 @@ impl ReadRequest {
+             ReadRequest::ReadRetainedHeaderPath { .. } => "read_retained_header_path",
+             ReadRequest::ReleaseRetainedHeaderPath { .. } => "release_retained_header_path",
+             ReadRequest::BlockRoots { .. } => "block_roots",
++            ReadRequest::BlockRootsForHashes { .. } => "block_roots_for_hashes",
+             ReadRequest::BestHeaderTip => "best_header_tip",
+             ReadRequest::MissingBlockBodyMetadata { .. } => "missing_block_body_metadata",
+             ReadRequest::BlocksByHeightRange { .. } => "blocks_by_height_range",
+diff --git a/crates/zakura-state/src/service.rs b/crates/zakura-state/src/service.rs
+index c1383dc0d..0c72f790c 100644
+--- a/crates/zakura-state/src/service.rs
++++ b/crates/zakura-state/src/service.rs
+@@ -1310,6 +1310,26 @@ impl StateService {
+ }
+ 
+ impl ReadStateService {
++    /// Read a selected header and untrusted auxiliary commitment data for a light wallet.
++    /// The caller must authenticate the roots against successor header commitments.
++    pub fn light_commitment_data(
++        &self,
++        height: block::Height,
++    ) -> Result<
++        Option<(
++            Arc<block::Header>,
++            zakura_chain::parallel::commitment_aux::BlockCommitmentRoots,
++        )>,
++        BoxError,
++    > {
++        self.header_chain_reader_receiver
++            .borrow()
++            .as_ref()
++            .map(|reader| reader.light_commitment_data(height))
++            .transpose()
++            .map(Option::flatten)
++            .map_err(Into::into)
++    }
+     /// Creates a new read-only state service, using the provided finalized state and
+     /// block write task handle.
+     ///
+@@ -2750,6 +2770,29 @@ impl Service<ReadRequest> for ReadStateService {
+                 Ok(ReadResponse::BlockRoots(roots))
+             }
+ 
++            ReadRequest::BlockRootsForHashes { blocks } => {
++                if blocks.len() > MAX_HEADER_SYNC_HEIGHT_RANGE as usize {
++                    return Err("header-root request exceeds the page limit".into());
++                }
++                let chain = state.latest_best_chain();
++                let mut roots = Vec::with_capacity(blocks.len());
++                for (height, expected_hash) in blocks {
++                    if read::find::hash_by_height(chain.clone(), &state.db, height)
++                        != Some(expected_hash)
++                    {
++                        break;
++                    }
++                    let Some(root) =
++                        block_roots_by_height_range(chain.clone(), &state.db, None, height, 1)?
++                            .pop()
++                    else {
++                        break;
++                    };
++                    roots.push(root);
++                }
++                Ok(ReadResponse::BlockRoots(roots))
++            }
++
+             ReadRequest::BestHeaderTip => {
+                 let header_chain_reader = state.header_chain_reader_receiver.borrow().clone();
+                 let tip = match header_chain_reader {
+diff --git a/crates/zakura-state/src/service/finalized_state.rs b/crates/zakura-state/src/service/finalized_state.rs
+index 6fafed123..befa052c9 100644
+--- a/crates/zakura-state/src/service/finalized_state.rs
++++ b/crates/zakura-state/src/service/finalized_state.rs
+@@ -171,6 +171,8 @@ pub const STATE_COLUMN_FAMILIES_IN_CODE: &[&str] = &[
+     "zakura_header_height_by_hash",
+     "zakura_header_by_height",
+     ZAKURA_HEADER_BODY_SIZE_BY_HEIGHT,
++    "light_header_by_height_v1",
++    "light_aux_by_height_v1",
+     // Fork-aware header-chain engine v1
+     HEADER_NODE_BY_HASH,
+     HEADER_CONSENSUS_INVALID_BODY_TOMBSTONE,
+diff --git a/crates/zakura-state/src/service/finalized_state/header_chain.rs b/crates/zakura-state/src/service/finalized_state/header_chain.rs
+index 82e2415e4..554321d2b 100644
+--- a/crates/zakura-state/src/service/finalized_state/header_chain.rs
++++ b/crates/zakura-state/src/service/finalized_state/header_chain.rs
+@@ -1152,6 +1152,68 @@ impl RetainedPathLeaseRegistry {
+ }
+ 
+ impl HeaderChainReader {
++    pub(crate) fn light_commitment_data(
++        &self,
++        height: block::Height,
++    ) -> Result<Option<(Arc<block::Header>, BlockCommitmentRoots)>, HeaderChainStoreError> {
++        let _writer = self
++            .store
++            .writer
++            .lock()
++            .map_err(|_| HeaderChainStoreError::WriterPoisoned)?;
++        let snapshot = self.store.snapshot()?;
++        let (header, hash, delivery) = if height < snapshot.frontiers.finalized.height {
++            if snapshot.mode != EngineMode::HeadersOnly {
++                return Ok(None);
++            }
++            let key = height.0.to_be_bytes();
++            let Some(node) = self
++                .store
++                .get_value::<HeaderValidationContextDisk>("light_header_by_height_v1", key)?
++            else {
++                return Ok(None);
++            };
++            if node.height != height {
++                return Err(StoreError::Incoherent("light archive header is incoherent").into());
++            }
++            (
++                node.header.clone(),
++                node.header.hash(),
++                self.store
++                    .get_value::<AuxDelivery>("light_aux_by_height_v1", key)?,
++            )
++        } else {
++            let Some(node) = self.coherent_selected_node(height)? else {
++                return Ok(None);
++            };
++            let delivery = self.selected_aux_delivery(&node)?;
++            (node.header, node.hash, delivery)
++        };
++        let Some(delivery) = delivery else {
++            return Ok(None);
++        };
++        let Some(aux) = delivery.tree_aux else {
++            return Ok(None);
++        };
++        if delivery.header_hash != hash || aux.height != height {
++            return Err(
++                StoreError::Incoherent("light auxiliary data disagrees with its header").into(),
++            );
++        }
++        Ok(Some((
++            header,
++            BlockCommitmentRoots {
++                height,
++                sapling_root: aux.sapling_root,
++                orchard_root: aux.orchard_root,
++                ironwood_root: aux.ironwood_root,
++                sapling_tx: aux.sapling_tx_count,
++                orchard_tx: aux.orchard_tx_count,
++                ironwood_tx: aux.ironwood_tx_count,
++                auth_data_root: aux.auth_data_root,
++            },
++        )))
++    }
+     fn coherent_selected_node(
+         &self,
+         height: block::Height,
+@@ -3175,6 +3237,15 @@ impl HeaderChainRuntime {
+                 }
+             }
+         }
++        // The planner can finalize and prune the beginning of a cold-start insert
++        // in one transition. Preserve its untrusted auxiliary input until the atomic
++        // archive write; the retained-DAG change set deliberately omits pruned rows.
++        let light_aux = match &request.event {
++            TransitionEvent::InsertHeaders(insert) if before.mode == EngineMode::HeadersOnly => {
++                insert.aux.clone()
++            }
++            _ => Vec::new(),
++        };
+         let input = self.build_transition_input(request, &before, base_context.config.network())?;
+         let validation_leases = input
+             .header_validation_facts()
+@@ -3296,9 +3367,11 @@ impl HeaderChainRuntime {
+ 
+         let current = transition.snapshot_after_commit();
+         let migrated_pin_refuted = transition.change_set().metadata.alarms.migrated_pin_refuted;
+-        let batch = self
+-            .store
+-            .batch_for_combined(transition.change_set(), full_state_batch)?;
++        let batch = self.store.batch_for_combined_with_light_aux(
++            transition.change_set(),
++            full_state_batch,
++            &light_aux,
++        )?;
+         #[cfg(feature = "internal-bench")]
+         BENCH_BATCH_BYTES.store(
+             u64::try_from(batch.size_in_bytes()).unwrap_or(u64::MAX),
+@@ -4506,11 +4579,102 @@ impl HeaderChainStore {
+     }
+ 
+     fn batch_for_combined(
++        &self,
++        changes: &ChangeSet,
++        batch: DiskWriteBatch,
++    ) -> Result<DiskWriteBatch, HeaderChainStoreError> {
++        self.batch_for_combined_with_light_aux(changes, batch, &[])
++    }
++
++    fn batch_for_combined_with_light_aux(
+         &self,
+         changes: &ChangeSet,
+         mut batch: DiskWriteBatch,
++        light_aux: &[AuxDelivery],
+     ) -> Result<DiskWriteBatch, HeaderChainStoreError> {
+         let current_metadata = self.metadata_row()?;
++        // Preserve the finalized light-client path before DAG pruning removes it. These
++        // auxiliary rows remain untrusted; the embedding wallet authenticates them with
++        // the ZIP-221 verifier before using a note-tree frontier.
++        if changes.metadata.mode == EngineMode::HeadersOnly {
++            if let Some(previous) = current_metadata.as_ref() {
++                let mut frontier = changes.metadata.frontiers.finalized;
++                while frontier.height > previous.frontiers.finalized.height {
++                    let retained = changes
++                        .put_nodes
++                        .iter()
++                        .find(|node| node.hash == frontier.hash)
++                        .cloned()
++                        .map(|node| Ok(Some(node)))
++                        .unwrap_or_else(|| self.header_node(frontier.hash))?;
++                    let node = retained
++                        .map(|node| HeaderValidationContextDisk {
++                            header: node.header,
++                            height: node.height,
++                        })
++                        .or_else(|| {
++                            changes.finality_ancestry.iter().find_map(|entry| {
++                                (entry.frontier == frontier).then(|| HeaderValidationContextDisk {
++                                    header: entry.header.clone(),
++                                    height: entry.frontier.height,
++                                })
++                            })
++                        })
++                        .ok_or(StoreError::Incoherent(
++                            "light archive path is missing a header",
++                        ))?;
++                    let hash = node.header.hash();
++                    if node.height != frontier.height || hash != frontier.hash {
++                        return Err(StoreError::Incoherent(
++                            "light archive path disagrees with finality",
++                        )
++                        .into());
++                    }
++                    let key = frontier.height.0.to_be_bytes();
++                    self.put_value(&mut batch, "light_header_by_height_v1", key, &node)?;
++                    let mut deliveries: Vec<_> = self
++                        .untrusted_aux_deliveries(hash)?
++                        .into_iter()
++                        .map(|row| row.delivery())
++                        .collect();
++                    deliveries.extend(
++                        light_aux
++                            .iter()
++                            .filter(|row| row.header_hash == hash)
++                            .cloned(),
++                    );
++                    for delta in &changes.aux_changes {
++                        if let AuxDelta::Put(delivery) = delta {
++                            if delivery.header_hash == hash {
++                                deliveries.retain(|old| old.delivery_id != delivery.delivery_id);
++                                deliveries.push(delivery.as_ref().clone());
++                            }
++                        }
++                    }
++                    if let Some(delivery) = select_vct_auxiliary_delivery(deliveries) {
++                        let untrusted =
++                            decode_untrusted_aux_delivery(&delivery.encode()?)?.delivery();
++                        self.put_value(&mut batch, "light_aux_by_height_v1", key, &untrusted)?;
++                    }
++                    frontier = Frontier::new(
++                        block::Height(
++                            frontier
++                                .height
++                                .0
++                                .checked_sub(1)
++                                .ok_or(StoreError::Incoherent("light archive passed genesis"))?,
++                        ),
++                        node.header.previous_block_hash,
++                    );
++                }
++                if frontier != previous.frontiers.finalized {
++                    return Err(
++                        StoreError::Incoherent("light archive finality is not contiguous").into(),
++                    );
++                }
++            }
++        }
++
+         if let Some(metadata) = current_metadata
+             .as_ref()
+             .filter(|metadata| metadata.frontiers.finalized != changes.metadata.frontiers.finalized)
+@@ -4540,10 +4704,11 @@ impl HeaderChainStore {
+                         .into_iter()
+                         .map(|context| (context.header.hash(), context))
+                         .collect();
+-                let contexts: Vec<_> = authenticated_context_headers(
++                let contexts: Vec<_> = authenticated_context_headers_with_ancestry(
+                     self,
+                     changes.metadata.frontiers.finalized.hash,
+                     Some(&staged_nodes),
++                    &changes.finality_ancestry,
+                 )?
+                 .into_iter()
+                 .map(|context| (context.header.hash(), context))
+@@ -6054,6 +6219,15 @@ fn authenticated_context_headers(
+     store: &HeaderChainStore,
+     parent: block::Hash,
+     staged_nodes: Option<&HashMap<block::Hash, &HeaderNode>>,
++) -> Result<Vec<HeaderValidationContextDisk>, StoreError> {
++    authenticated_context_headers_with_ancestry(store, parent, staged_nodes, &[])
++}
++
++fn authenticated_context_headers_with_ancestry(
++    store: &HeaderChainStore,
++    parent: block::Hash,
++    staged_nodes: Option<&HashMap<block::Hash, &HeaderNode>>,
++    ancestry: &[zakura_header_chain::FinalityAncestryHeader],
+ ) -> Result<Vec<HeaderValidationContextDisk>, StoreError> {
+     let staged_parent = staged_nodes.and_then(|nodes| nodes.get(&parent).copied());
+     let stored_parent = if staged_parent.is_none() {
+@@ -6086,6 +6260,16 @@ fn authenticated_context_headers(
+                 header: node.header.clone(),
+                 height: node.height,
+             }
++        } else if let Some(entry) = ancestry
++            .iter()
++            .find(|entry| entry.frontier.hash == current_hash)
++        {
++            // A cold-start transition can finalize these predecessors before they
++            // ever enter the retained DAG. Its finality proof authenticates them.
++            HeaderValidationContextDisk {
++                header: entry.header.clone(),
++                height: entry.frontier.height,
++            }
+         } else {
+             store
+                 .get_value::<HeaderValidationContextDisk>(HEADER_VALIDATION_CONTEXT, current_hash.0)
+diff --git a/crates/zakura-state/src/service/write.rs b/crates/zakura-state/src/service/write.rs
+index 6c4ecd812..c21a7dde6 100644
+--- a/crates/zakura-state/src/service/write.rs
++++ b/crates/zakura-state/src/service/write.rs
+@@ -517,7 +517,11 @@ impl HeaderChainWriter {
+             return Err(HeaderChainAttachmentError::GenesisMismatch);
+         }
+         let config = EngineConfig::new(
+-            EngineMode::Integrated,
++            if finalized_state.db.config().headers_only {
++                EngineMode::HeadersOnly
++            } else {
++                EngineMode::Integrated
++            },
+             network.clone(),
+             TrustedAnchor {
+                 frontier: Frontier::new(Height(0), genesis_hash),
+@@ -536,6 +540,20 @@ impl HeaderChainWriter {
+         let restored_tips = verified_tips(non_finalized_state);
+         let store = HeaderChainStore::new(finalized_state.db.header_chain_disk_db());
+         store.migrate_to_current(&config)?;
++        if config.mode == EngineMode::HeadersOnly {
++            if finalized_state.db.tip().map(|(height, _)| height) != Some(Height(0)) {
++                return Err(HeaderChainStoreError::Incoherent(
++                    "headers-only mode requires a dedicated genesis-only block store",
++                )
++                .into());
++            }
++            let runtime = if store.is_initialized()? {
++                store.startup(&config)?.0
++            } else {
++                initialize_header_chain_reconciled(&finalized_state.db, &config, Vec::new())?.0
++            };
++            return Ok(Self::new(runtime, config));
++        }
+         let runtime = if store.is_initialized()? {
+             let persisted_finalized = store.snapshot()?.frontiers.finalized;
+             let (full_state_height, full_state_hash) = finalized_state
+diff --git a/crates/zakurad/src/commands/start.rs b/crates/zakurad/src/commands/start.rs
+index 6c140eb52..3f8d853b8 100644
+--- a/crates/zakurad/src/commands/start.rs
++++ b/crates/zakurad/src/commands/start.rs
+@@ -93,7 +93,7 @@ use tokio_util::sync::CancellationToken;
+ use tower::{builder::ServiceBuilder, util::BoxService, ServiceExt};
+ use tracing::Instrument;
+ 
+-use zakura_chain::block::{self, genesis::regtest_genesis_block};
++use zakura_chain::block;
+ use zakura_consensus::router::BackgroundTaskHandles;
+ use zakura_network::types::PeerServices;
+ use zakura_rpc::{methods::RpcImpl, server::RpcServer, SubmitBlockChannel};
+@@ -338,9 +338,30 @@ impl StartCmd {
+     ) -> Result<(), Report> {
+         check_tcp_slow_start_after_idle();
+ 
++        let config = if config.state.headers_only {
++            let mut config = Arc::unwrap_or_clone(config);
++            if config.zcashd_compat.enabled {
++                return Err(eyre!(
++                    "headers-only mode cannot run the zcashd compatibility sidecar"
++                ));
++            }
++            config.network.p2p_stack = zakura_network::P2pStack::Zakura;
++            config.state.enable_zakura_header_seed_from_committed_blocks = true;
++            config.network.zakura.provide_services = Some(vec![
++                "zakura.discovery.v1".into(),
++                "zakura.service_discovery.v1".into(),
++                zakura_network::zakura::SERVICE_ID_HEADER_SYNC.into(),
++            ]);
++            config.network.zakura.seek_services =
++                vec![zakura_network::zakura::SERVICE_ID_HEADER_SYNC.into()];
++            Arc::new(config)
++        } else {
++            config
++        };
++
+         let is_regtest = config.network.network.is_regtest();
+ 
+-        let config = if is_regtest {
++        let config = if is_regtest && !config.state.headers_only {
+             Arc::new(ZakuradConfig {
+                 mempool: mempool::Config {
+                     debug_enable_at_height: Some(0),
+@@ -822,15 +843,19 @@ impl StartCmd {
+         info!("spawning progress logging task");
+         let (chain_tip_metrics_sender, chain_tip_metrics_receiver) =
+             health::ChainTipMetrics::channel();
+-        let progress_task_handle = tokio::spawn(
+-            show_block_chain_progress(
+-                config.network.network.clone(),
+-                latest_chain_tip.clone(),
+-                sync_status.clone(),
+-                chain_tip_metrics_sender,
++        let progress_task_handle = if config.state.headers_only {
++            tokio::spawn(std::future::pending())
++        } else {
++            tokio::spawn(
++                show_block_chain_progress(
++                    config.network.network.clone(),
++                    latest_chain_tip.clone(),
++                    sync_status.clone(),
++                    chain_tip_metrics_sender,
++                )
++                .in_current_span(),
+             )
+-            .in_current_span(),
+-        );
++        };
+         node_tasks.track(&progress_task_handle);
+ 
+         // Start health server if configured
+@@ -860,13 +885,17 @@ impl StartCmd {
+ 
+         // The crawler only activates immediately in tests that use mempool debug mode
+         info!("spawning mempool crawler task");
+-        let mempool_crawler_task_handle = mempool::Crawler::spawn(
+-            &config.mempool,
+-            peer_set,
+-            mempool.clone(),
+-            sync_status.clone(),
+-            chain_tip_change.clone(),
+-        );
++        let mempool_crawler_task_handle = if config.state.headers_only {
++            tokio::spawn(std::future::pending())
++        } else {
++            mempool::Crawler::spawn(
++                &config.mempool,
++                peer_set,
++                mempool.clone(),
++                sync_status.clone(),
++                chain_tip_change.clone(),
++            )
++        };
+         node_tasks.track(&mempool_crawler_task_handle);
+ 
+         info!("spawning syncer task");
+@@ -879,7 +908,7 @@ impl StartCmd {
+         // `debug_skip_regtest_genesis_self_seed` opts a node out of this shortcut so it
+         // downloads genesis from a peer instead, exercising the production
+         // genesis-bootstrap path (e.g. a Zakura-only node fetching genesis over Zakura).
+-        if is_regtest
++        if (config.state.headers_only || is_regtest)
+             && !config.sync.debug_skip_regtest_genesis_self_seed
+             && !syncer
+                 .state_contains(config.network.network.genesis_hash())
+@@ -887,7 +916,9 @@ impl StartCmd {
+         {
+             let genesis_hash = block_verifier_router
+                 .clone()
+-                .oneshot(zakura_consensus::Request::Commit(regtest_genesis_block()))
++                .oneshot(zakura_consensus::Request::Commit(
++                    zakura_chain::block::genesis::network_genesis_block(&config.network.network),
++                ))
+                 .await
+                 .expect("should validate Regtest genesis block");
+ 
+@@ -897,7 +928,14 @@ impl StartCmd {
+                 "validated block hash should match network genesis hash"
+             )
+         }
+-        let syncer_task_handle = if use_zakura_block_sync(&config.network) {
++        let syncer_task_handle = if config.state.headers_only {
++            info!("headers-only mode: full-block sync is disabled after genesis bootstrap");
++            tokio::spawn(syncer.bootstrap_headers_only(
++                zakura_bootstrap_snapshots.expect("header-only mode uses native headers"),
++                zakura_bootstrap_runtime_status.expect("header-only mode has runtime status"),
++                zakura_block_sync_handoff.clone(),
++            ))
++        } else if use_zakura_block_sync(&config.network) {
+             info!(
+                 "legacy-compatible genesis fetch will complete before Zakura block sync takes \
+                  ownership at height 1"
+diff --git a/crates/zakurad/src/commands/start/zakura/header_sync_driver.rs b/crates/zakurad/src/commands/start/zakura/header_sync_driver.rs
+index 325aa3d2f..a72ac887c 100644
+--- a/crates/zakurad/src/commands/start/zakura/header_sync_driver.rs
++++ b/crates/zakurad/src/commands/start/zakura/header_sync_driver.rs
+@@ -936,13 +936,8 @@ where
+             zakura_state::RetainedPathReadOutcome::Page(page),
+         ))) => {
+             let finalized_tree_aux = if want_tree_aux {
+-                finalized_tree_aux_for_page(
+-                    read_state,
+-                    &network,
+-                    page.common_ancestor,
+-                    page.headers.len(),
+-                )
+-                .await?
++                body_tree_aux_for_page(read_state, &network, page.common_ancestor, &page.headers)
++                    .await?
+             } else {
+                 vec![None; page.headers.len()]
+             };
+@@ -969,11 +964,11 @@ where
+     }
+ }
+ 
+-async fn finalized_tree_aux_for_page<ReadState>(
++async fn body_tree_aux_for_page<ReadState>(
+     read_state: ReadState,
+     network: &zakura_chain::parameters::Network,
+     common_ancestor: zakura_header_chain::Frontier,
+-    header_count: usize,
++    headers: &[Arc<zakura_chain::block::Header>],
+ ) -> Result<Vec<Option<zakura_header_chain::TreeAuxRecordV1>>, PortError>
+ where
+     ReadState: Service<
+@@ -985,6 +980,7 @@ where
+         + 'static,
+     ReadState::Future: Send + 'static,
+ {
++    let header_count = headers.len();
+     let empty = || vec![None; header_count];
+     let Ok(count) = u32::try_from(header_count) else {
+         return Ok(empty());
+@@ -995,36 +991,20 @@ where
+     let Ok(start_height) = common_ancestor.height.next() else {
+         return Ok(empty());
+     };
+-    let Some(end_height) = start_height + i64::from(count.saturating_sub(1)) else {
+-        return Ok(empty());
+-    };
+-
+-    let finalized_tip = match tokio::time::timeout(
+-        ZAKURA_HEADER_SYNC_DRIVER_TIMEOUT,
+-        read_state
+-            .clone()
+-            .oneshot(zakura_state::ReadRequest::FinalizedTip),
+-    )
+-    .await
+-    {
+-        Ok(Ok(zakura_state::ReadResponse::FinalizedTip(tip))) => tip,
+-        Ok(Ok(_)) => return Err(PortError::Unavailable { source: None }),
+-        Ok(Err(error)) => {
+-            return Err(PortError::Unavailable {
+-                source: Some(Arc::from(error)),
+-            })
+-        }
+-        Err(_) => return Err(PortError::Timeout),
+-    };
+-    if finalized_tip.is_none_or(|(height, _)| end_height > height) {
+-        return Ok(empty());
+-    }
+-
+     let roots = match tokio::time::timeout(
+         ZAKURA_HEADER_SYNC_DRIVER_TIMEOUT,
+-        read_state.oneshot(zakura_state::ReadRequest::BlockRoots {
+-            start_height,
+-            count,
++        read_state.oneshot(zakura_state::ReadRequest::BlockRootsForHashes {
++            blocks: headers
++                .iter()
++                .enumerate()
++                .map(|(index, header)| {
++                    let offset = u32::try_from(index).expect("header count fits u32");
++                    (
++                        zakura_chain::block::Height(start_height.0.saturating_add(offset)),
++                        header.hash(),
++                    )
++                })
++                .collect(),
+         }),
+     )
+     .await
+@@ -1528,7 +1508,7 @@ mod tests {
+     }
+ 
+     #[tokio::test]
+-    async fn finalized_pages_load_contiguous_tree_aux_from_state() {
++    async fn body_pages_load_tree_aux_bound_to_header_hashes() {
+         let roots = |height| BlockCommitmentRoots {
+             height,
+             sapling_root: Default::default(),
+@@ -1539,20 +1519,22 @@ mod tests {
+             ironwood_tx: 0,
+             auth_data_root: [9; 32].into(),
+         };
++        let header = zakura_chain::block::genesis::network_genesis_block(
++            &zakura_chain::parameters::Network::Mainnet,
++        )
++        .header
++        .clone();
++        let expected_hash = header.hash();
+         let read_state = tower::service_fn(move |request| async move {
+             Ok::<_, zakura_state::BoxError>(match request {
+-                zakura_state::ReadRequest::FinalizedTip => {
+-                    zakura_state::ReadResponse::FinalizedTip(Some((
+-                        block::Height(2),
+-                        block::Hash([2; 32]),
+-                    )))
+-                }
+-                zakura_state::ReadRequest::BlockRoots {
+-                    start_height,
+-                    count,
+-                } => {
+-                    assert_eq!(start_height, block::Height(1));
+-                    assert_eq!(count, 2);
++                zakura_state::ReadRequest::BlockRootsForHashes { blocks } => {
++                    assert_eq!(
++                        blocks,
++                        vec![
++                            (block::Height(1), expected_hash),
++                            (block::Height(2), expected_hash)
++                        ]
++                    );
+                     zakura_state::ReadResponse::BlockRoots(vec![
+                         roots(block::Height(1)),
+                         roots(block::Height(2)),
+@@ -1562,11 +1544,11 @@ mod tests {
+             })
+         });
+ 
+-        let records = finalized_tree_aux_for_page(
++        let records = body_tree_aux_for_page(
+             read_state,
+             &zakura_chain::parameters::Network::Mainnet,
+             zakura_header_chain::Frontier::new(block::Height(0), block::Hash([0; 32])),
+-            2,
++            &[header.clone(), header],
+         )
+         .await
+         .expect("the finalized roots are available");
+diff --git a/crates/zakurad/src/components/sync.rs b/crates/zakurad/src/components/sync.rs
+index 58e6a50c2..77c9326fb 100644
+--- a/crates/zakurad/src/components/sync.rs
++++ b/crates/zakurad/src/components/sync.rs
+@@ -1110,53 +1110,27 @@ where
+         }
+     }
+ 
+-    /// Download and verify genesis.
+-    /// Hand body sync to native Zakura and watch for progress.
+-    /// On a dual-stack node, optionally run a compatibility recovery round after a stall.
+-    ///
+-    /// The legacy-compatible downloader fetches only genesis.
+-    /// The genesis commit publishes the durable header runtime.
+-    /// Native Zakura owns every body apply from height 1 onward.
+-    ///
+-    /// Native Zakura normally drives body downloads after genesis.
+-    /// A dual-stack node can lack usable Zakura peers when all reachable peers are legacy-only.
+-    /// An eclipse by non-upgrading peers can cause the same condition.
+-    ///
+-    /// `legacy_fallback` controls the recovery path when the node runs both stacks.
+-    /// A true value runs one legacy body-sync recovery round after a Zakura stall.
+-    /// Zakura continues serving peers and following local commits during that round.
+-    /// The recovery round then returns apply ownership to Zakura.
+-    /// A false value keeps a Zakura-only node on native sync because it has no legacy peers.
+-    /// The watchdog parks and logs one warning per stall window.
+-    ///
+-    /// `read_state` answers
+-    /// [`ReadRequest::BestHeaderTip`](zs::ReadRequest::BestHeaderTip)
+-    /// for the legacy-informed cross-check, which only probes legacy peers when
+-    /// the verified tip is frozen and the node looks caught up to its own header
+-    /// frontier.
+-    #[instrument(skip(
+-        self,
+-        read_state,
+-        committed_snapshots,
+-        header_runtime_status,
+-        block_sync_handoff
+-    ))]
+-    pub(crate) async fn bootstrap_genesis_then_pause<RS>(
++    pub(crate) async fn bootstrap_headers_only(
+         mut self,
+-        mut read_state: RS,
++        committed_snapshots: watch::Receiver<Option<zakura_header_chain::EngineSnapshot>>,
++        header_runtime_status: watch::Receiver<
++            zakura_node_services::sync_lifecycle::HeaderRuntimeStatus,
++        >,
++        handoff: std::sync::Arc<crate::commands::start::zakura::SyncCoordinator>,
++    ) -> Result<(), Report> {
++        self.finish_genesis_handoff(committed_snapshots, header_runtime_status, handoff)
++            .await?;
++        std::future::pending().await
++    }
++
++    async fn finish_genesis_handoff(
++        &mut self,
+         committed_snapshots: watch::Receiver<Option<zakura_header_chain::EngineSnapshot>>,
+         mut header_runtime_status: watch::Receiver<
+             zakura_node_services::sync_lifecycle::HeaderRuntimeStatus,
+         >,
+-        legacy_fallback: bool,
+         block_sync_handoff: std::sync::Arc<crate::commands::start::zakura::SyncCoordinator>,
+-    ) -> Result<(), Report>
+-    where
+-        RS: Service<zs::ReadRequest, Response = zs::ReadResponse, Error = BoxError>
+-            + Send
+-            + 'static,
+-        RS::Future: Send,
+-    {
++    ) -> Result<(), Report> {
+         self.request_genesis().await?;
+ 
+         loop {
+@@ -1202,9 +1176,68 @@ where
+             .height;
+         self.trace
+             .checkpoint_handoff(Some(handoff_state_tip), Height(0));
++        // A reopened header store starts with native ownership already established.
++        if !block_sync_handoff.zakura_owns_applies() {
++            block_sync_handoff
++                .finish_legacy_bootstrap()
++                .map_err(|error| eyre!("genesis apply handoff failed: {error}"))?;
++        }
++        Ok(())
++    }
++
++    /// Download and verify genesis.
++    /// Hand body sync to native Zakura and watch for progress.
++    /// On a dual-stack node, optionally run a compatibility recovery round after a stall.
++    ///
++    /// The legacy-compatible downloader fetches only genesis.
++    /// The genesis commit publishes the durable header runtime.
++    /// Native Zakura owns every body apply from height 1 onward.
++    ///
++    /// Native Zakura normally drives body downloads after genesis.
++    /// A dual-stack node can lack usable Zakura peers when all reachable peers are legacy-only.
++    /// An eclipse by non-upgrading peers can cause the same condition.
++    ///
++    /// `legacy_fallback` controls the recovery path when the node runs both stacks.
++    /// A true value runs one legacy body-sync recovery round after a Zakura stall.
++    /// Zakura continues serving peers and following local commits during that round.
++    /// The recovery round then returns apply ownership to Zakura.
++    /// A false value keeps a Zakura-only node on native sync because it has no legacy peers.
++    /// The watchdog parks and logs one warning per stall window.
++    ///
++    /// `read_state` answers
++    /// [`ReadRequest::BestHeaderTip`](zs::ReadRequest::BestHeaderTip)
++    /// for the legacy-informed cross-check, which only probes legacy peers when
++    /// the verified tip is frozen and the node looks caught up to its own header
++    /// frontier.
++    #[instrument(skip(
++        self,
++        read_state,
++        committed_snapshots,
++        header_runtime_status,
+         block_sync_handoff
+-            .finish_legacy_bootstrap()
+-            .map_err(|error| eyre!("genesis apply handoff failed: {error}"))?;
++    ))]
++    pub(crate) async fn bootstrap_genesis_then_pause<RS>(
++        mut self,
++        mut read_state: RS,
++        committed_snapshots: watch::Receiver<Option<zakura_header_chain::EngineSnapshot>>,
++        header_runtime_status: watch::Receiver<
++            zakura_node_services::sync_lifecycle::HeaderRuntimeStatus,
++        >,
++        legacy_fallback: bool,
++        block_sync_handoff: std::sync::Arc<crate::commands::start::zakura::SyncCoordinator>,
++    ) -> Result<(), Report>
++    where
++        RS: Service<zs::ReadRequest, Response = zs::ReadResponse, Error = BoxError>
++            + Send
++            + 'static,
++        RS::Future: Send,
++    {
++        self.finish_genesis_handoff(
++            committed_snapshots,
++            header_runtime_status,
++            block_sync_handoff.clone(),
++        )
++        .await?;
+         info!(
+             "Zakura block sync replacement completed genesis bootstrap; \
+              monitoring for Zakura body-sync progress"
+diff --git a/crates/zakura-chain/src/block/genesis/block-main-0-000-000.txt b/crates/zakura-chain/src/block/genesis/block-main-0-000-000.txt
+new file mode 100644
+index 000000000..5706f214c
+--- /dev/null
++++ b/crates/zakura-chain/src/block/genesis/block-main-0-000-000.txt
+@@ -0,0 +1 @@
++040000000000000000000000000000000000000000000000000000000000000000000000db4d7a85b768123f1dff1d4c4cece70083b2d27e117b4ac2e31d087988a5eac4000000000000000000000000000000000000000000000000000000000000000090041358ffff071f5712000000000000000000000000000000000000000000000000000000000000fd4005000a889f00854b8665cd555f4656f68179d31ccadc1b1f7fb0952726313b16941da348284d67add4686121d4e3d930160c1348d8191c25f12b267a6a9c131b5031cbf8af1f79c9d513076a216ec87ed045fa966e01214ed83ca02dc1797270a454720d3206ac7d931a0a680c5c5e099057592570ca9bdf6058343958b31901fce1a15a4f38fd347750912e14004c73dfe588b903b6c03166582eeaf30529b14072a7b3079e3a684601b9b3024054201f7440b0ee9eb1a7120ff43f713735494aa27b1f8bab60d7f398bca14f6abb2adbf29b04099121438a7974b078a11635b594e9170f1086140b4173822dd697894483e1c6b4e8b8dcd5cb12ca4903bc61e108871d4d915a9093c18ac9b02b6716ce1013ca2c1174e319c1a570215bc9ab5f7564765f7be20524dc3fdf8aa356fd94d445e05ab165ad8bb4a0db096c097618c81098f91443c719416d39837af6de85015dca0de89462b1d8386758b2cf8a99e00953b308032ae44c35e05eb71842922eb69797f68813b59caf266cb6c213569ae3280505421a7e3a0a37fdf8e2ea354fc5422816655394a9454bac542a9298f176e211020d63dee6852c40de02267e2fc9d5e1ff2ad9309506f02a1a71a0501b16d0d36f70cdfd8de78116c0c506ee0b8ddfdeb561acadf31746b5a9dd32c21930884397fb1682164cb565cc14e089d66635a32618f7eb05fe05082b8a3fae620571660a6b89886eac53dec109d7cbb6930ca698a168f301a950be152da1be2b9e07516995e20baceebecb5579d7cdbc16d09f3a50cb3c7dffe33f26686d4ff3f8946ee6475e98cf7b3cf9062b6966e838f865ff3de5fb064a37a21da7bb8dfd2501a29e184f207caaba364f36f2329a77515dcb710e29ffbf73e2bbd773fab1f9a6b005567affff605c132e4e4dd69f36bd201005458cfbd2c658701eb2a700251cefd886b1e674ae816d3f719bac64be649c172ba27a4fd55947d95d53ba4cbc73de97b8af5ed4840b659370c556e7376457f51e5ebb66018849923db82c1c9a819f173cccdb8f3324b239609a300018d0fb094adf5bd7cbb3834c69e6d0b3798065c525b20f040e965e1a161af78ff7561cd874f5f1b75aa0bc77f720589e1b810f831eac5073e6dd46d00a2793f70f7427f0f798f2f53a67e615e65d356e66fe40609a958a05edb4c175bcc383ea0530e67ddbe479a898943c6e3074c6fcc252d6014de3a3d292b03f0d88d312fe221be7be7e3c59d07fa0f2f4029e364f1f355c5d01fa53770d0cd76d82bf7e60f6903bc1beb772e6fde4a70be51d9c7e03c8d6d8dfb361a234ba47c470fe630820bbd920715621b9fbedb49fcee165ead0875e6c2b1af16f50b5d6140cc981122fcbcf7c5a4e3772b3661b628e08380abc545957e59f634705b1bbde2f0b4e055a5ec5676d859be77e20962b645e051a880fddb0180b4555789e1f9344a436a84dc5579e2553f1e5fb0a599c137be36cabbed0319831fea3fddf94ddc7971e4bcf02cdc93294a9aab3e3b13e3b058235b4f4ec06ba4ceaa49d675b4ba80716f3bc6976b1fbf9c8bf1f3e3a4dc1cd83ef9cf816667fb94f1e923ff63fef072e6a19321e4812f96cb0ffa864da50ad74deb76917a336f31dce03ed5f0303aad5e6a83634f9fcc371096f8288b8f02ddded5ff1bb9d49331e4a84dbe1543164438fde9ad71dab024779dcdde0b6602b5ae0a6265c14b94edd83b37403f4b78fcd2ed555b596402c28ee81d87a909c4e8722b30c71ecdd861b05f61f8b1231795c76adba2fdefa451b283a5d527955b9f3de1b9828e7b2e74123dd47062ddcc09b05e7fa13cb2212a6fdbc65d7e852cec463ec6fd929f5b8483cf3052113b13dac91b69f49d1b7d1aec01c4a68e41ce1570101000000010000000000000000000000000000000000000000000000000000000000000000ffffffff4d04ffff071f0104455a6361736830623963346565663862376363343137656535303031653335303039383462366665613335363833613763616331343161303433633432303634383335643334ffffffff010000000000000000434104678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5fac00000000
+diff --git a/crates/zakura-chain/src/block/genesis/block-test-0-000-000.txt b/crates/zakura-chain/src/block/genesis/block-test-0-000-000.txt
+new file mode 100644
+index 000000000..a04d27d0c
+--- /dev/null
++++ b/crates/zakura-chain/src/block/genesis/block-test-0-000-000.txt
+@@ -0,0 +1 @@
++040000000000000000000000000000000000000000000000000000000000000000000000db4d7a85b768123f1dff1d4c4cece70083b2d27e117b4ac2e31d087988a5eac40000000000000000000000000000000000000000000000000000000000000000a11e1358ffff07200600000000000000000000000000000000000000000000000000000000000000fd400500a6a51259c3f6732481e2d035197218b7a69504461d04335503cd69759b2d02bd2b53a9653f42cb33c608511c953673fa9da76170958115fe92157ad3bb5720d927f18e09459bf5c6072973e143e20f9bdf0584058c96b7c2234c7565f100d5eea083ba5d3dbaff9f0681799a113e7beff4a611d2b49590563109962baa149b628aae869af791f2f70bb041bd7ebfa658570917f6654a142b05e7ec0289a4f46470be7be5f693b90173eaaa6e84907170f32602204f1f4e1c04b1830116ffd0c54f0b1caa9a5698357bd8aa1f5ac8fc93b405265d824ba0e49f69dab5446653927298e6b7bdc61ee86ff31c07bde86331b4e500d42e4e50417e285502684b7966184505b885b42819a88469d1e9cf55072d7f3510f85580db689302eab377e4e11b14a91fdd0df7627efc048934f0aff8e7eb77eb17b3a95de13678004f2512293891d8baf8dde0ef69be520a58bbd6038ce899c9594cf3e30b8c3d9c7ecc832d4c19a6212747b50724e6f70f6451f78fd27b58ce43ca33b1641304a916186cfbe7dbca224f55d08530ba851e4df22baf7ab7078e9cbea46c0798b35a750f54103b0cdd08c81a6505c4932f6bfbd492a9fced31d54e98b6370d4c96600552fcf5b37780ed18c8787d03200963600db297a8f05dfa551321d17b9917edadcda51e274830749d133ad226f8bb6b94f13b4f77e67b35b71f52112ce9ba5da706ad9573584a2570a4ff25d29ab9761a06bdcf2c33638bf9baf2054825037881c14adf3816ba0cbd0fca689aad3ce16f2fe362c98f48134a9221765d939f0b49677d1c2447e56b46859f1810e2cf23e82a53e0d44f34dae932581b3b7f49eaec59af872cf9de757a964f7b33d143a36c270189508fcafe19398e4d2966948164d40556b05b7ff532f66f5d1edc41334ef742f78221dfe0c7ae2275bb3f24c89ae35f00afeea4e6ed187b866b209dc6e83b660593fce7c40e143beb07ac86c56f39e895385924667efe3a3f031938753c7764a2dbeb0a643fd359c46e614873fd0424e435fa7fac083b9a41a9d6bf7e284eee537ea7c50dd239f359941a43dc982745184bf3ee31a8dc850316aa9c6b66d6985acee814373be3458550659e1a06287c3b3b76a185c5cb93e38c1eebcf34ff072894b6430aed8d34122dafd925c46a515cca79b0269c92b301890ca6b0dc8b679cdac0f23318c105de73d7a46d16d2dad988d49c22e9963c117960bdc70ef0db6b091cf09445a516176b7f6d58ec29539166cc8a38bbff387acefffab2ea5faad0e8bb70625716ef0edf61940733c25993ea3de9f0be23d36e7cb8da10505f9dc426cd0e6e5b173ab4fff8c37e1f1fb56d1ea372013d075e0934c6919393cfc21395eea20718fad03542a4162a9ded66c814ad8320b2d7c2da3ecaf206da34c502db2096d1c46699a91dd1c432f019ad434e2c1ce507f91104f66f491fed37b225b8e0b2888c37276cfa0468fc13b8d593fd9a2675f0f5b20b8a15f8fa7558176a530d6865738ddb25d3426dab905221681cf9da0e0200eea5b2eba3ad3a5237d2a391f9074bf1779a2005cee43eec2b058511532635e0fea61664f531ac2b356f40db5c5d275a4cf5c82d468976455af4e3362cc8f71aa95e71d394aff3ead6f7101279f95bcd8a0fedce1d21cb3c9f6dd3b182fce0db5d6712981b651f29178a24119968b14783cafa713bc5f2a65205a42e4ce9dc7ba462bdb1f3e4553afc15f5f39998fdb53e7e231e3e520a46943734a007c2daa1eda9f495791657eefcac5c32833936e568d06187857ed04d7b97167ae207c5c5ae54e528c36016a984235e9c5b2f0718d7b3aa93c7822ccc772580b6599671b3c02ece8a21399abd33cfd3028790133167d0a97e7de53dc8ff0101000000010000000000000000000000000000000000000000000000000000000000000000ffffffff4d04ffff071f0104455a6361736830623963346565663862376363343137656535303031653335303039383462366665613335363833613763616331343161303433633432303634383335643334ffffffff010000000000000000434104678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5fac00000000

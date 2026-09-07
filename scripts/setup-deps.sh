@@ -16,7 +16,19 @@ checkout() {
     fi
 }
 
-checkout wallet-libraries https://github.com/distractedm1nd/wallet-libraries.git a9142ee100b3a563b7d9ba7a8e94201d00ad8154
-checkout ztreamer https://github.com/distractedm1nd/ztreamer.git 1fdd51c037b7f5790556419d36e1d31ab3dcdf06
-checkout zakura-veil https://github.com/zakura-core/zakura.git 8c35c23c1ac0834812937dd6d6aea3b8bb088600
-checkout ztreamer-veil https://github.com/distractedm1nd/ztreamer.git 1fdd51c037b7f5790556419d36e1d31ab3dcdf06
+patch_checkout() {
+    local name=$1
+    local patch="$veil_root/patches/$name.patch"
+    if git -C "$deps_root/$name" apply --reverse --check "$patch" 2>/dev/null; then
+        return
+    fi
+    git -C "$deps_root/$name" apply --check "$patch"
+    git -C "$deps_root/$name" apply "$patch"
+}
+
+checkout wallet-libraries https://github.com/distractedm1nd/wallet-libraries.git b3314cba9e2200f8e647c850532f39a75db98784
+checkout ztreamer https://github.com/distractedm1nd/ztreamer.git 541999709feceb1c9bfd2c0a49acc881fb031828
+checkout zakura-veil https://github.com/zakura-core/zakura.git f4d44dd5cce281f0e35cbb84421c1f6a7474957c
+patch_checkout zakura-veil
+checkout ztreamer-veil https://github.com/distractedm1nd/ztreamer.git 541999709feceb1c9bfd2c0a49acc881fb031828
+patch_checkout ztreamer-veil
